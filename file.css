@@ -1,0 +1,519 @@
+*{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%;
+    height: 550px;
+    background-image: url(v.jpg);
+    background-size: cover;
+   
+}
+.container .cord{
+    width: 100%;
+    height: 70px;
+    border-radius: 40px;
+    background-image:linear-gradient(rgb(63, 150, 63),rgb(141, 141, 43));
+    display: flex;
+}
+.container .cord .cord1{
+    width: 40%;
+    height: 100%;
+
+}
+.container .cord .cord1:hover{
+    background-color:rgb(148, 119, 83);
+}
+.container .cord .cord1 h1{
+    font-size: 20px;
+    font-style: oblique;
+    padding-left: 90px;
+    color: cornsilk;
+}
+.container .cord .cord2{
+
+    width: 60%;
+    height: 100%;
+}
+.container .cord .cord2 ul{
+    display: inline-block;
+}
+.container .cord .cord2 ul li{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(191, 192, 186);
+    padding-left: 40px;
+}
+.container .cord .cord2:hover{
+    background-color: greenyellow;
+}
+.container .coal{
+    width: 100%;
+    height: 360px;
+    display: flex;
+}
+.container .coal .cord3{
+    width: 25%;
+    height: 80%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.container .coal .cord3 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.container .coal .cord4{
+
+    width: 25%;
+    height: 80%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(41, 179, 25);
+
+}
+.container .coal .cord4 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.container .coal .cord5{
+    width: 25%;
+    height: 80%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(155, 198, 25);
+
+
+}
+
+.container .coal .cord5 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.container .coal .cord6{
+    width: 25%;
+    height: 80%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(165, 93, 161);
+
+}
+.container .coal .cord6 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.b{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-image: linear-gradient(rgb(222, 222, 142),rgb(232, 212, 212));
+   
+}
+.b .b1{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.b .b1 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+.b .b1 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.b .b1 button:hover{
+    background-color: greenyellow;
+}
+.b .b2{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.b .b2 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.b .b2 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.b .b2 button:hover{
+    background-color: greenyellow;
+}
+.b .b3{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.b .b3 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.b .b3 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.b .b3 button:hover{
+    background-color: greenyellow;
+}
+.b .b4{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.b .b4 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.b .b4 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.b .b4 button:hover{
+    background-color: greenyellow;
+}
+.c{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-image: linear-gradient(rgb(222, 222, 142),rgb(232, 212, 212));
+   
+}
+.c .b1{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.c .b1 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+.c .b1 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+
+.c .b2{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.c .b2 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.c .b2 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.c .b2 button:hover{
+    background-color: greenyellow;
+}
+.c .b3{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.c .b3 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.c .b3 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.c .b3 button:hover{
+    background-color: greenyellow;
+}
+.c .b4{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.c .b4 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.c .b4 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.c .b4 button:hover{
+    background-color: greenyellow;
+}
+.d{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-image: linear-gradient(rgb(222, 222, 142),rgb(232, 212, 212));
+   
+}
+.d .b1{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.d .b1 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+.d .b1 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.d .b1 button:hover{
+    background-color: greenyellow;
+}
+.d .b2{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.d .b2 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.d .b2 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.d .b2 button:hover{
+    background-color: greenyellow;
+}
+.d .b3{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.d .b3 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.d .b3 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.d .b3 button:hover{
+    background-color: greenyellow;
+}
+.d .b4{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.d .b4 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.d .b4 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.d .b4 button:hover{
+    background-color: greenyellow;
+}
+.r{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-image: linear-gradient(rgb(222, 222, 142),rgb(232, 212, 212));
+   
+}
+.r .b1{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.r .b1 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+.r .b1 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.r .b1 button:hover{
+    background-color: greenyellow;
+}
+.r .b2{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.r .b2 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.r .b2 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.r .b2 button:hover{
+    background-color: greenyellow;
+}
+.r .b3{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.r .b3 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.r .b3 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.r .b3 button:hover{
+    background-color: greenyellow;
+}
+.r .b4{
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 10px;
+}
+.r .b4 img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-size: cover;
+}
+
+.r .b4 button{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-left: 50px;
+}
+.r .b4 button:hover{
+    background-color: greenyellow;
+}
+.mee{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(6, 85, 169);
+    display:flex;
+}
+.mee .v1{
+    width: 50%;
+    height:150px ;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.mee .v1 ul li{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.mee .v2{
+    width: 50%;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mee .v2 ul li{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+

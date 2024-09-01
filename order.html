@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="order.css">
+</head>
+<body>
+	<div class="container">
+		<form method="post" action="" name="contact-form">
+			<h4>Order Now</h4>
+			<input type="text" name="name" placeholder="Name">
+			<input type="text" name="phone" placeholder="Number">
+			<input type="email" name="email" placeholder="Email">
+            <input type="text" name="vagitabul" placeholder="vagetable name">
+            <input type="number" name="quantity" placeholder="quantity in kgs">
+			<textarea name="message" rows="7" placeholder="Your adress"></textarea>
+			<input type="submit" value="Submit" id="submit">
+		</form>
+	</div>
+
+	<script src="">
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbx6pK0ohBBr7eT2xeDUeCNkNdSDLvoAA03EUIVb9xAm2tfskdW2gHRkz7OvFeQ71uyu/exec'
+
+        const form = document.forms['contact-form']
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+       .then(response => alert("Thank you! your form is submitted successfully." ))
+       .then(() => { window.location.reload(); })
+       .catch(error => console.error('Error!', error.message))
+       })
+	</script>
+</body>
+</html>
